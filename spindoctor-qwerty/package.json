@@ -1,0 +1,12 @@
+{
+  "name": "spindoctor-qwerty",
+  "version": "1.1.0",
+  "description": "SpinDoctor Qwerty Amp plugin: SpinDoctor 3.1.2 quantum-circuit simulator tools (classical FP64).",
+  "type": "module",
+  "main": "index.js",
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "author": "RUSSELL PHILIP SMITHSON <russellsmithson77@outlook.com>",
+  "repository": {"type": "git", "url": "https://github.com/LKVexa/spindoctor-qwerty-amp"},
+  "engines": {"node": ">=18"}
+}
