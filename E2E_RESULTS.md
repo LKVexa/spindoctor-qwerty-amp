@@ -60,4 +60,16 @@ listing and tool calls were verified with the stand-in host instead. No language
 
 ## Post-push clone
 
-Filled in after publishing.
+After publishing, the repository was cloned back from GitHub into a fresh folder and the plugin folder was copied into a fresh
+project's `.amp/plugins/`:
+
+| Check | Result |
+|---|---|
+| Files | 50/50 present and byte-identical to the staged copy |
+| `node tests/index_test.mjs` | 10/10 |
+| End-to-end through the installed plugin | **12/12** |
+| Real Amp CLI `amp plugins exec` | loads and activates, exit 0 |
+
+Binaries: none needed (JavaScript + Python sources); the two sample PDFs are recreated by `make_sample_pdfs.py`. Commits are made by
+the LKVexa account (commit e-mail russellsmithson77@outlook.com); the connector cannot set the author name, so authorship is recorded in
+the README, NOTICE, COPYRIGHT, package.json and file headers.
